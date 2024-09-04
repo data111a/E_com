@@ -1,0 +1,31 @@
+// src/components/SaleBar.module.scss
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  padding: 0 160px;
+  animation: slideDown 0.5s ease-in-out;
+}
+
+.text_content {
+  color: white;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.change_lang {
+  z-index: 2;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: white;
+  margin-left: auto;
+}

@@ -1,0 +1,29 @@
+.container {
+  width: 270px;
+  height: auto;
+  // background-color: grey;
+  border-radius: 4px;
+  // animation: slideIn 1s ease;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+.image img {
+  width: 100%;
+  height: auto;
+}
+
+.arrowR {
+  transform: rotate(90deg);
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

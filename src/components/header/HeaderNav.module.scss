@@ -1,0 +1,19 @@
+.active {
+  border-bottom: 1px solid black;
+  animation: borderBottom 0.3s ease-in-out;
+  padding-bottom: 8px;
+}
+
+@keyframes borderBottom {
+  0% {
+    border-bottom: 1px solid transparent;
+    padding-bottom: 0;
+  }
+  50% {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+  }
+  100% {
+    padding-bottom: 8px;
+  }
+}

@@ -1,0 +1,45 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 250px 0;
+}
+
+.story_container {
+  padding: 0 0 0 10%;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+.story_container > div {
+  width: 50%;
+}
+.story_content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: start;
+  justify-content: center;
+}
+
+.story_content > h1 {
+  padding-bottom: 50px;
+  font-size: 42px;
+}
+
+.story_content > div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.story_content > div > p {
+  font-size: 18px;
+  line-height: 2;
+}
+
+.achive_container {
+  padding: 150px 10%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-between;
+}

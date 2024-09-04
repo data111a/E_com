@@ -1,0 +1,99 @@
+.container {
+  padding: 200px 30% 200px 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.form input {
+  border: none;
+  border-bottom: 1px solid #00000046;
+  padding: 10px 5px;
+  font-size: 16px;
+  transition: padding 0.2s ease-in-out;
+}
+
+.form > input:focus {
+  padding: 10px 5px 15px 5px;
+}
+
+.signup_btn {
+  background: #db4444;
+  color: white;
+  border: none;
+  padding: 10px 5px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.form_container {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  p {
+    text-align: center;
+  }
+}
+
+.form_title {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: start;
+  align-items: start;
+}
+
+.form_title > h1 {
+  font-size: 42px;
+}
+
+.google_btn {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid #00000046;
+  padding: 10px 5px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.btn_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1118px) {
+  .container {
+    padding: 200px 10% 100px 10%;
+  }
+
+  .form_container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 200px 5% 50px 5%;
+  }
+
+  .form_container {
+    width: 100%;
+  }
+}

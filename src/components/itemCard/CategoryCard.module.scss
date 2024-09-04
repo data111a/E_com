@@ -1,0 +1,37 @@
+.card {
+  // width: 170px;
+  height: 165px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.274);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.card img {
+  transition: filter 0.2s ease-in-out; /* Smooth transition for the filter */
+}
+
+.card:hover {
+  background-color: #db4444;
+  color: white;
+  border: 1px solid #db4444;
+}
+
+.card:hover img {
+  filter: brightness(0) invert(1);
+}
+
+.activeCard {
+  background-color: #db4444;
+  color: white;
+  border: 1px solid #db4444;
+}
+
+.activeCard img {
+  filter: brightness(0) invert(1);
+}
